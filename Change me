@@ -1,0 +1,9 @@
+guess !=input('\nEnter your password:    ')
+password=str('changeme')
+count=1
+while guess != password:
+    print('\nwrong password. Try again!')
+    guess =input('\nEnter you password')
+    count += 1
+print('\nPassword accepted. attempts taken:' + count)
+input('Press ENTER to exit')
